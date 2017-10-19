@@ -27,7 +27,7 @@ final class CreateBoardTest extends TestCase
         return $property;
     }
 
-    public function testCreateMapAroundBombSuccess() {
+    public function testAssignBoardMapNumbers() {
         /** Armo el mapa a testear */
         $bombMap[0][0] = 'b';
         $bombMap[1][1] = 'b';
